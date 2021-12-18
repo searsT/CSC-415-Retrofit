@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Retrofit/app/src/main/res/drawable/ic_add_for_fab.xml" value="0.20925925925925926" />
         <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Retrofit/app/src/main/res/layout/activity_recycler.xml" value="0.24322916666666666" />
+        <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Retrofit/app/src/main/res/layout/activity_recycler1.xml" value="0.38769230769230767" />
         <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Retrofit/app/src/main/res/layout/activity_recyclerview.xml" value="0.13229166666666667" />
         <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Retrofit/app/src/main/res/layout/activity_recylerview.xml" value="0.24322916666666666" />
       </map>

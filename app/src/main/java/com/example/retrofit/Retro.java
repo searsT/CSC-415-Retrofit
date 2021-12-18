@@ -10,7 +10,9 @@ public class Retro
     public interface Api
     {
         @GET("/json_data.json")
-        Call<Albums1> getAlbums();
+        Call<Albums1.Album> getuserId();
+        @GET("/json_data.json")
+        Call<Albums1.Album> getAlbums();
     }
     private static final String Web_Json = "https://jsonplaceholder.typicode.com/albums";
     private static Retrofit goRetro()
@@ -19,5 +21,9 @@ public class Retro
                 .baseUrl(Web_Json)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
+    }
+    public static Api getApi()
+    {
+        return goRetro().create(Api.class);
     }
 }

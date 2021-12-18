@@ -1,18 +1,20 @@
 package com.example.retrofit;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.content.Context;
 import android.net.ConnectivityManager;
-import android.net.Network;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import com.example.retrofit.Albums1;
+import com.example.retrofit.Retro;
 
-import java.net.NetworkInterface;
-
-import retrofit2.Retrofit;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,10 +26,7 @@ public class MainActivity extends AppCompatActivity {
         {
             findViewById(R.id.netStatus).setVisibility(View.VISIBLE);
         }
-        else
-        {
-            //albumsjson();
-        }
+
     }
     private boolean internetConnect(){
 
@@ -36,4 +35,5 @@ public class MainActivity extends AppCompatActivity {
         boolean yaGotNet = activeNetwork != null && activeNetwork.isConnectedOrConnecting();
         return yaGotNet;
     }
+
 }
