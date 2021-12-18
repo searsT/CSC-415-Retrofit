@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-//import com.google.gson.annotations.EXPOSED;
-//import com.google.gson.annotations.SERIALIZED;
+//import com.google.gson.annotations.Exposed;
+//import com.google.gson.annotations.SerializedName;
 public class Albums1
 {
     public class Album {
